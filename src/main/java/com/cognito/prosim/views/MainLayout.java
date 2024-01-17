@@ -19,7 +19,7 @@ import org.vaadin.lineawesome.LineAwesomeIcon;
 /**
  * The main view is a top-level placeholder for other views.
  */
-@Route("")
+
 public class MainLayout extends AppLayout {
 
     private H2 viewTitle;
@@ -41,7 +41,7 @@ public class MainLayout extends AppLayout {
     }
 
     private void addDrawerContent() {
-        H1 appName = new H1("My App");
+        H1 appName = new H1("Cognito Prosim");
         appName.addClassNames(LumoUtility.FontSize.LARGE, LumoUtility.Margin.NONE);
         Header header = new Header(appName);
 
